@@ -1,0 +1,257 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "aishwarya corona",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetDistrictInfo",
+                    "slots": [
+                        {
+                            "name": "District",
+                            "type": "LIST_OF_DISTRICTS"
+                        }
+                    ],
+                    "samples": [
+                        "{District}",
+                        "Get updates in {District}",
+                        "Updates for {District}"
+                    ]
+                },
+                {
+                    "name": "GetDeltaInfo",
+                    "slots": [
+                        {
+                            "name": "District",
+                            "type": "LIST_OF_DISTRICTS"
+                        }
+                    ],
+                    "samples": [
+                        "Daily change in {District}",
+                        "Daily status of {District}",
+                        "Increase or Decrease in {District}",
+                        "What is the difference in numbers between yesterday and today in {District}",
+                        "Difference in {District}",
+                        "What is the increase of coronavirus affected people in {District}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_DISTRICTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Virudhunagar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Viluppuram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vellore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tiruvannamalai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tiruppur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tirupathur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tirunelveli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tiruchirappalli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thoothukkudi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thiruvarur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thiruvallur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Theni"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thanjavur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tenkasi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sivaganga"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Salem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ranipet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ramanathapuram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pudukkottai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Perambalur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nilgiris"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Namakkal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nagapattinam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madurai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Krishnagiri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Karur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kanyakumari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kancheepuram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kallakurichi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Erode"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dindigul"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dharmapuri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cuddalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Coimbatore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chennai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chengalpattu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ariyalur"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
